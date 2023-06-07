@@ -12,7 +12,7 @@ const buttonStyles = css`
     font-weight: 500;
 
     &:hover{ 
-        color:#fff000;
+        color:#9537d4;
         background: pink;
     }
 
@@ -31,6 +31,6 @@ export const ButtonPink = styled.button`
  &:hover {
     box-shadow: 0px 0px 7px 15px rgb(238 130 238 / 30%);
     background: pink;
-    color: #fff000;
+    color: #9537d4;
  }
 `

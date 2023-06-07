@@ -16,7 +16,7 @@ export const Background = styled.div`
         top:0;
         left:0;
         width:100%;
-        height:100%;
+        height:110%;
         background-color: rgba(0, 0, 0, 0.5   );
     }
 
@@ -24,34 +24,36 @@ export const Background = styled.div`
 export const Container = styled.div`
     display: flex;
     justify-content: space-around;
-    height: 100%;
-    max-width:1500px;
+    height: 500px;
+    max-width:1100px;
 `
 
 export const Info = styled.div`
     z-index:2; 
-    padding: 20 px;
-    width:50%;
+    padding: 50 px;
+    width:55%;
 
     h1{
-        font-size: 5rem;
-        font-weight: 700;
+        font-size: 50px;
+        font-weight: 600;
+        margin-top:50px;
         color: #ffffff;
         }
     p{
-        font-size:20px;
-        font-weight: 500;
+        font-size:14px;
+        font-weight: 700;
         color:#ffffff;
-        margin-top:30px;
-        margin-bottom:2opx;
+        margin-top:15px;
+        margin-bottom:20px;
     }    
 `
 
 export const Quadro = styled.div`
     z-index:1;
     img{
-        width:300px;
+        width:280px;
         border-radius:30px;
+        margin-top:25px;
     }
 
 `
